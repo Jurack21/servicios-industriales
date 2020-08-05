@@ -1,0 +1,235 @@
+*{margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Open sans';
+	box-sizing: border-box;
+
+}
+.contenedor{
+	background: url(ima/Nueva.jpg);
+	text-align: center;
+	position: center;
+	margin: 0%;
+	width: 100%;
+	height: auto;
+	font-size: 80px
+}
+.fila{
+	background: url(ima/Nueva.jpg);
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: circle;
+}
+header #logo{
+	font-family: 'Open sans', cursive; 
+	font-size: 80px;
+	text-align: center;
+	line-height: 80px;
+	text-align: center;
+	
+}
+header #center p{
+	background: blak;
+	text-align: center;
+	width: 0px;
+	line-height: 0px;
+	border-radius: 100%;
+	color: white;
+	text-align: center;
+	
+}
+
+
+nav ul li{
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+nav ul li a{
+	display: block;
+	font-family: 'Proxima nova', cursive;
+	color: black;
+	line-height: 48px;
+}
+nav ul li a:hover{
+	background: rgba(0, 255, 255);
+}
+
+aside #der center {
+	position: center
+ 
+/*Sección 3*/
+#seccion3 center{
+	padding: 20px;
+}
+#seccion3 img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	padding: 10px; 
+}
+#seccion3 h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	padding: 10px;
+}
+#seccion3 p{
+	padding: 10px;
+}
+
+/*Sección 4*/
+#seccion4 aside ul li{
+	background: salmon;
+	padding: 10px;
+	margin: 5px 10px;
+	list-style: none;
+	list-style-position: inside;
+}
+
+#seccion4 article h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 40px;
+	margin: 20px;
+}
+
+#seccion4 article p img{
+	float: left;
+	margin-right: 20px;
+}
+
+#seccion4 article p{
+	margin: 5px 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+#seccion4 aside#der h1{
+	line-height: 50px;
+	text-align: center;
+	background: rgba(100,0,255,1);
+	color: white;
+	margin-bottom: 5px;
+}
+
+#seccion4 aside#der input{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0px;
+}
+
+#der input[type="text"]{
+	background: url(../img/person.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+#der input[type="password"]{
+	background: url(../img/password.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+#der input[type="email"]{
+	background: url(../img/email.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+#der input[type="submit"]{
+	width: 200px;
+	background: rgba(100,0,100, .5);
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+/*Sección 5*/
+footer{
+	padding: 20px 10px;
+}
+
+footer div{
+	background: rgba(100,0,255,1);
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+
+
+[class*="col-"]{
+	float: left;
+	padding: 50px;
+	/*background: aqua;*/
+	/*border: 2px solid green;*/
+}
+
+/*Pantalla de Escritorio Grande - Large (lg)*/
+@media(min-width: 1200px){
+	.col-lg-12{ width: 100%; }
+	.col-lg-11{width: 91.66666667%;}
+	.col-lg-10{width: 83.33333333%;}
+	.col-lg-9{width: 75%; }
+	.col-lg-8{width: 66.66666667%;}
+	.col-lg-7{width: 58.33333333%;}
+	.col-lg-6{width: 50%;}
+	.col-lg-5{width: 41.66666667%;}
+	.col-lg-4{width: 33.33333333%;}
+	.col-lg-3{width: 25%;}
+	.col-lg-2{width: 16.66666667%;}
+	.col-lg-1{width: 8.33333333%;}	
+	.col-lg-0{display: none;}	
+}
+/*Pantalla de Escritorio Mediano - Medium (md)*/
+@media(max-width:1199px) and (min-width: 992px){
+	.col-md-12{ width: 100%; }
+	.col-md-11{width: 91.66666667%;}
+	.col-md-10{width: 83.33333333%;}
+	.col-md-9{width: 75%; }
+	.col-md-8{width: 66.66666667%;}
+	.col-md-7{width: 58.33333333%;}
+	.col-md-6{width: 50%;}
+	.col-md-5{width: 41.66666667%;}
+	.col-md-4{width: 33.33333333%;}
+	.col-md-3{width: 25%;}
+	.col-md-2{width: 16.66666667%;}
+	.col-md-1{width: 8.33333333%;}	
+	.col-md-0{display: none;}	
+}
+/*Pantalla de Tablet - Small (sm)*/
+@media(max-width:991px) and (min-width: 768px){
+	.col-sm-12{ width: 100%; }
+	.col-sm-11{width: 91.66666667%;}
+	.col-sm-10{width: 83.33333333%;}
+	.col-sm-9{width: 75%; }
+	.col-sm-8{width: 66.66666667%;}
+	.col-sm-7{width: 58.33333333%;}
+	.col-sm-6{width: 50%;}
+	.col-sm-5{width: 41.66666667%;}
+	.col-sm-4{width: 33.33333333%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-2{width: 16.66666667%;}
+	.col-sm-1{width: 8.33333333%;}	
+	.col-sm-0{display: none;}	
+}
+/*Pantalla de Phones - Extra Small (xs)*/
+@media(max-width:767px){
+	.col-xs-12{ width: 100%; }
+	.col-xs-11{width: 91.66666667%;}
+	.col-xs-10{width: 83.33333333%;}
+	.col-xs-9{width: 75%; }
+	.col-xs-8{width: 66.66666667%;}
+	.col-xs-7{width: 58.33333333%;}
+	.col-xs-6{width: 50%;}
+	.col-xs-5{width: 41.66666667%;}
+	.col-xs-4{width: 33.33333333%;}
+	.col-xs-3{width: 25%;}
+	.col-xs-2{width: 16.66666667%;}
+	.col-xs-1{width: 8.33333333%;}	
+	.col-xs-0{display: none;}	
+}
+
